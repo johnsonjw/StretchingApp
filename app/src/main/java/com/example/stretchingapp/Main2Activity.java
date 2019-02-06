@@ -3,14 +3,16 @@ package com.example.stretchingapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.*;
 
-public class Main2Activity extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity  {
 
     private Button goBack;
     private Button ListCreate;
@@ -31,17 +33,17 @@ public class Main2Activity extends AppCompatActivity {
             }
 
         });
-
+        //TODO Have the app create an empty untitled list and have the user input the name and save said list.
         ListCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                List newExcerciseList = new ArrayList();
-                System.out.println("What would you like to name the list");
-                String p = "";
+                String[] UntitledExerciseList = {};
+                //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getListView.getContext(), android.R.layout.simple_list_item_1,UntitledExerciseList);
+
 
             }
         });
 
         }
     }
-}
+
