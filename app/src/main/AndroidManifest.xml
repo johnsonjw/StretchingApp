@@ -9,10 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".ChestStretches"
-            android:label="@string/title_activity_chest_stretches"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".NeckExercises" />
         <activity android:name=".ThighExercises" />
         <activity android:name=".LegExercises" />
