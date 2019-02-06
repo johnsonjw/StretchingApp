@@ -23,8 +23,8 @@ public class Main2Activity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        Scrolling = findViewById(R.id.ListView);
-        ListCreate = findViewById(R.id.CreateList);
+        //Scrolling = findViewById(R.id.ListView);
+        ListCreate = findViewById(R.id.UserCreateList);
         goBack = findViewById(R.id.goBack);
         goBack.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -76,10 +76,13 @@
     <Button
         android:id="@+id/Backmus"
         android:layout_width="wrap_content"
-        android:layout_height="80dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Back"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="873dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/Chest"
@@ -107,9 +110,9 @@
         android:id="@+id/Neck"
         android:layout_width="88dp"
         android:layout_height="82dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="88dp"
         android:text="Neck"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

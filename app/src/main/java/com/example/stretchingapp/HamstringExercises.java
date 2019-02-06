@@ -5,15 +5,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ThighExercises extends AppCompatActivity {
-    private Button goBack;
+public class HamstringExercises extends AppCompatActivity {
+    private Button Back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_thigh_exercises);
-        goBack = findViewById(R.id.goBack);
-        goBack.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_hamstring_exercises);
+        Back = findViewById(R.id.goBack);
+        Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();

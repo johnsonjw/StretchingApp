@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button HamstringStretches;
     private Button ShoulderStreches;
     private Button ChestStreches;
+    private Button BicepStretches;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         HamstringStretches = findViewById(R.id.Hamstrings);
         ShoulderStreches = findViewById(R.id.Shoulders);
         ChestStreches = findViewById(R.id.Chest);
+        BicepStretches = findViewById(R.id.Biceps);
 
 
         CreateLists.setOnClickListener(new View.OnClickListener() {
@@ -35,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent  forwardIntent = new Intent(MainActivity.this, Main2Activity.class);
                 startActivity(forwardIntent);
+            }
+        });
+
+        BicepStretches.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent  ViewBicepStretches = new Intent(MainActivity.this, BicepStretches.class);
+                startActivity(ViewBicepStretches);
             }
         });
 
@@ -62,29 +72,29 @@ public class MainActivity extends AppCompatActivity {
         TricepStretches.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ViewingNeckStretches = new Intent(MainActivity.this, NeckExercises.class);
-                startActivity(ViewingNeckStretches);
+                Intent ViewingTricepStretches = new Intent(MainActivity.this, TricepExercises.class);
+                startActivity(ViewingTricepStretches);
             }
         });
         HamstringStretches.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ViewingNeckStretches = new Intent(MainActivity.this, NeckExercises.class);
-                startActivity(ViewingNeckStretches);
+                Intent ViewingHamstringStretches = new Intent(MainActivity.this, HamstringExercises.class);
+                startActivity(ViewingHamstringStretches);
             }
         });
         ShoulderStreches.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ViewingNeckStretches = new Intent(MainActivity.this, NeckExercises.class);
-                startActivity(ViewingNeckStretches);
+                Intent ViewingShoulderStretches = new Intent(MainActivity.this, ShoulderExercises.class);
+                startActivity(ViewingShoulderStretches);
             }
         });
         ChestStreches.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ViewingNeckStretches = new Intent(MainActivity.this, NeckExercises.class);
-                startActivity(ViewingNeckStretches);
+                Intent ViewingChestStretches = new Intent(MainActivity.this, ChestExercises.class);
+                startActivity(ViewingChestStretches);
             }
         });
     }
