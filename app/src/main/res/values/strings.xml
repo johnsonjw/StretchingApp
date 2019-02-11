@@ -101,4 +101,78 @@
         <item>Calf Stretch</item>
     </string-array>
 
+    <string-array name="Chest">
+        <item>Camel Pose</item>
+        <item>Cross Body Arm Swings</item>
+        <item>Doorway Chest Stretches</item>
+        <item>Office Chest Stretch</item>
+        <item>Partner Assisted Chest Stretch</item>
+        <item>Pole Chest Stretch</item>
+        <item>Reverse Shoulder Stretch</item>
+        <item>Towel Chest Stretch</item>
+    </string-array>
+
+    <string-array name="Shoulders">
+        <item>Postural Correction</item>
+        <item>Scapular Setting</item>
+        <item>Chin Retractions</item>
+        <item>Neck Rolls</item>
+        <item>Shoulder Rolls</item>
+        <item>Neck Stretches</item>
+        <item>Cow-Face Pose</item>
+        <item>Cross-Body Arm Stretch</item>
+    </string-array>
+
+    <string-array name="Thighs">
+        <item>Quad stretch</item>
+        <item>Hamstring/Calf Stretch</item>
+        <item>Inner Thigh Stretch</item>
+        <item>Supine Leg stretch</item>
+    </string-array>
+
+
+    <string-array name="Neck">
+        <item>Quad stretch</item>
+        <item>Hamstring/calf stretch</item>
+        <item>Inner thigh stretch</item>
+        <item>Supine leg stretch</item>
+    </string-array>
+
+    <string-array name="Triceps">
+        <item>Horizontal Stretches</item>
+        <item>Overhead Stretches</item>
+        <item>Dynamic Stretches</item>
+        <item>Standing Bench Triceps Stretch</item>
+        <item>Behind-the-head triceps Stretches</item>
+
+    </string-array>
+
+    <string-array name="Back">
+        <item>Trunk Rotation Stretch</item>
+        <item>Child’s Pose</item>
+        <item>Cat-camel Back Stretch</item>
+        <item>Hamstring stretch</item>
+        <item>Hip Flexor Stretch</item>
+        <item>Knees to Chest Stretch</item>
+        <item>Supine Twist Stretch</item>
+        <item>Prone Bridging Stretch</item>
+    </string-array>
+
+    <string-array name="Bicep">
+        <item>Standing Biceps Stretch</item>
+        <item>Biceps Wall Stretch</item>
+        <item>Wrist-Rotation Biceps Stretch</item>
+        <item>Seated Bent-Knee Biceps Stretch</item>
+        <item>Hip Flexor Stretch</item>
+        <item>Knees to Chest Stretch</item>
+        <item>Supine Twist Stretch</item>
+        <item>Prone Bridging Stretch</item>
+    </string-array>
+
+
+
+
+
+
+
 </resources>

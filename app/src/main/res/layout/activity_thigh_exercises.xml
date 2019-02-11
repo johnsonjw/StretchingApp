@@ -20,7 +20,7 @@
     <ListView
         android:id="@+id/ThighList"
         android:layout_width="524dp"
-        android:layout_height="541dp"
+        android:layout_height="573dp"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="8dp"
@@ -29,6 +29,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.266" />
+        app:layout_constraintVertical_bias="0.35" />
 
 </android.support.constraint.ConstraintLayout>

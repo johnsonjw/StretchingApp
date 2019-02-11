@@ -9,12 +9,14 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.util.List;
+import java.util.*;
+
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 public class Main2Activity extends AppCompatActivity  {
 
     private Button goBack;
     private Button ListCreate;
-    private TextView Scrolling;
     public List UserCreatedList;
 
     @Override
@@ -39,13 +41,17 @@ public class Main2Activity extends AppCompatActivity  {
         ListCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String[] UntitledExerciseList = {};
+                List UntitledExerciseList =  new ArrayList();
                 //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getListView.getContext(), android.R.layout.simple_list_item_1,UntitledExerciseList);
+
 
 
             }
         });
+        theSpinster.getOnItemSelectedListener();
+      }
+      public void ListHandler(List L){
 
-        }
+      }
     }
 
