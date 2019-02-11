@@ -91,4 +91,14 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string-array name="StretchesNames">
+        <item>Seated Trapezius stretch</item>
+        <item>Shoulder Stretch</item>
+        <item>Triceps Stretch</item>
+        <item>Lower Back</item>
+        <item>Hip Flexor Stretch</item>
+        <item>Hamstring Stretch</item>
+        <item>Calf Stretch</item>
+    </string-array>
+
 </resources>
