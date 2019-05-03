@@ -92,13 +92,14 @@
     </string>
     <string name="action_settings">Settings</string>
     <string-array name="StretchesNames">
-        <item>Seated Trapezius stretch</item>
-        <item>Shoulder Stretch</item>
-        <item>Triceps Stretch</item>
-        <item>Lower Back</item>
-        <item>Hip Flexor Stretch</item>
-        <item>Hamstring Stretch</item>
-        <item>Calf Stretch</item>
+        <item>Chest</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Back</item>
+        <item>Neck</item>
+        <item>Hamstring</item>
+        <item>Shoulder</item>
+        <item>Thigh</item>
     </string-array>
 
     <string-array name="Chest">
@@ -131,7 +132,7 @@
     </string-array>
 
 
-    <string-array name="Neck">
+    <string-array name="Hamstring">
         <item>Quad stretch</item>
         <item>Hamstring/calf stretch</item>
         <item>Inner thigh stretch</item>
@@ -163,10 +164,15 @@
         <item>Biceps Wall Stretch</item>
         <item>Wrist-Rotation Biceps Stretch</item>
         <item>Seated Bent-Knee Biceps Stretch</item>
-        <item>Hip Flexor Stretch</item>
-        <item>Knees to Chest Stretch</item>
-        <item>Supine Twist Stretch</item>
-        <item>Prone Bridging Stretch</item>
+    </string-array>
+
+    <string-array name="Neck">
+        <item>Seated Clasping Neck Stretch</item>
+        <item>Seated Neck Release</item>
+        <item>Behind the Back Neck Stretch</item>
+        <item>Grounded Tipover Tuck</item>
+        <item>Seated Heart Opener</item>
+        <item>Bridge</item>
     </string-array>
 
 
